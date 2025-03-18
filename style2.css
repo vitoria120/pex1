@@ -1,13 +1,12 @@
 header{
-    background-color: rgb(195, 251, 195);
+    background-color: rgb(235, 97, 97);
    }
    body{
-    border: rgb(156, 187, 245), solid, 2px;
-    background-color: rgb(123, 123, 228);
+    background-color: rgb(120, 120, 123);
    }
    footer{
    
-    background-color: rgb(195, 251, 195);
+    background-color: rgb(235, 97, 97);
    }
    .logo{
        width: 8%;
@@ -34,7 +33,7 @@ header{
        text-decoration: none; 
        font-size: 1.5rem;
        color: rgb(2, 2, 2,);
-       background:rgb(179, 251, 179);
+       background:rgb(241, 94, 94);
        transition: 1s;
         
    }
@@ -42,7 +41,7 @@ header{
    nav a:hover{ 
        color: white; 
        border: solid rgb(254, 254, 254); 
-       background: rgb(132, 254, 132); 
+       background: rgb(241, 94, 94); 
    }
    .carousel-item{
     position: relative;
