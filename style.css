@@ -1,0 +1,78 @@
+header{
+ background-color: rgb(195, 251, 195);
+}
+body{
+ background-color: rgb(123, 123, 228);
+}
+footer{
+ background-color: rgb(195, 251, 195);
+}
+.logo{
+    width: 8%;
+    border-radius: 10px;
+    transition: 5s;
+}
+.logo:hover{
+    width: 10%;
+    border-radius: 20%;
+    transition: 3s;
+}
+nav{
+    margin-top: 1rem;
+    position:absolute;
+    right: 500px;
+    top: 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 100px;
+}
+nav a{
+    text-decoration: none; 
+    font-size: 1.5rem;
+    color: rgb(2, 2, 2,);
+    background:rgb(179, 251, 179);
+    transition: 1s;
+     
+}
+
+nav a:hover{ 
+    color: white; 
+    border: solid rgb(254, 254, 254); 
+    background: rgb(132, 254, 132); 
+}
+.carousel-item{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+.card{
+    width: 300px;/*tamanho do card*/
+    height: 350px;/*altura do card*/
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 11px black;/*sombra*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.card img{
+    width: 250px;/*tamanho do imagem dentro do card*/
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+.botaozinho{
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 213, 134);
+    border: solid 2px rgb(134, 213, 134);
+    padding: 1%;
+    border-radius: 5%;
+}
