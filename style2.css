@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(195, 251, 195);
+   }
+   body{
+    border: rgb(156, 187, 245), solid, 2px;
+    background-color: rgb(123, 123, 228);
+   }
+   footer{
+   
+    background-color: rgb(195, 251, 195);
+   }
+   .logo{
+       width: 8%;
+       border-radius: 10px;
+       transition: 5s;
+   }
+   .logo:hover{
+       width: 10%;
+       border-radius: 20%;
+       transition: 3s;
+   }
+   nav{
+       margin-top: 1rem;
+       position:absolute;
+       right: 500px;
+       top: 10px;
+   }
+   
+   nav li{
+       display: inline;
+       margin: 100px;
+   }
+   nav a{
+       text-decoration: none; 
+       font-size: 1.5rem;
+       color: rgb(2, 2, 2,);
+       background:rgb(179, 251, 179);
+       transition: 1s;
+        
+   }
+   
+   nav a:hover{ 
+       color: white; 
+       border: solid rgb(254, 254, 254); 
+       background: rgb(132, 254, 132); 
+   }
+   .carousel-item{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
